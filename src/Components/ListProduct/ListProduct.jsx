@@ -11,7 +11,7 @@ const ListProduct = () => {
       .then((res) => res.json()) //convert it into json
       .then((data) => {
         setAllProducts(data)}); // save data it in All Products variable
-  };
+  }; 
 
   useEffect(() => {
     fetchInfo();
